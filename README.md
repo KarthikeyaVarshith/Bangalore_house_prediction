@@ -6,7 +6,7 @@ Brief:
 
 Real estate data is often inconsistent and full of text variations. In this notebook, I worked through raw housing listings to clean up messy inputs, engineer practical features, and test how different linear regression models perform.### Key Steps:
 
-->Handling Area Ranges:
+->Handling Area Ranges: .
 ->Feature Extraction: Cleaned room sizes to numerical bedroom counts and split availability dates into year/month features.
 ->Handling Location Cardinality: Grouped locations with 10 or fewer listings into an `Other` category to keep one-hot encoding manageable.
 ->Scaling: Scaled feature inputs using on the training split.
